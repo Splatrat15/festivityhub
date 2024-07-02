@@ -1,0 +1,15 @@
+.NavbarContainer {
+    background-color:darkgray;
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 30rem;
+    font-size: 2.25rem;
+}
