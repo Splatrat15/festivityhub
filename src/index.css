@@ -8,3 +8,10 @@
   font-weight: 400;
   font-style: normal;
 }
+
+:root {
+  --primary-color: #EFC6D4;
+  --secondary-color: #D950AE;
+  --primary-variant-color: #AAE847;
+  --secondary-variant-color: #EEEDEE;
+}

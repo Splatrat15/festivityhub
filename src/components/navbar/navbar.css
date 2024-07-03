@@ -1,6 +1,6 @@
 .NavbarContainer {
-    background-color: #e8338b;
-    height: 6.5rem;
+    background-color: var(--secondary-color);
+    height: 8rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,4 +12,22 @@
     justify-content: space-around;
     width: 30rem;
     font-size: 2.25rem;
+}
+
+.links li {
+    list-style-type: none;
+}
+
+.links li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.links li a:hover {
+    color: var(--primary-variant-color);
+}
+
+#logo {
+    height: 6.7vw;
 }
