@@ -1,0 +1,21 @@
+.partyList__container {
+    width: 60vw;
+    height: 40rem;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 3rem;
+    padding: 2vw;
+}
+
+.party {
+    display: flex;
+    justify-content: center;
+}
+
+.list_title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vw;
+}
