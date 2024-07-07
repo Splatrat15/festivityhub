@@ -1,0 +1,24 @@
+﻿.addBtn__container {
+    position: fixed;
+    top: 82%;
+    left: 90%;
+    width: 7vw; /* Adjust as needed */
+    height: 7vw; /* Adjust as needed */
+    background-color: green;
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-bottom: 0.5vw;
+}
+
+.addBtn__container span {
+    font-size: 9vw; /* Adjust as needed */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
