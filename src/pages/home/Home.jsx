@@ -1,11 +1,10 @@
 import './home.css';
+import PartyList from '../../components/partyList/PartyList';
 
 const Home = () => {
     return(
         <div className="home__container">
-            <h1>
-                Home
-            </h1>
+            <PartyList/>
         </div>
     )
 }
